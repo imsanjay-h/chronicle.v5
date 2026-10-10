@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Watchlist · Chronicle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="filmstrip"><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div></div>
+<nav>
+  <a href="index.html" class="brand">Sanjay<span>.</span></a>
+  <ul>
+    <li><a href="index.html" class="navlink">Home</a></li>
+    <li><a href="about.html" class="navlink">About</a></li>
+    <li><a href="movies.html" class="navlink">Movies</a></li>
+    <li><a href="anime.html" class="navlink">Anime</a></li>
+    <li><a href="watchlist.html" class="navlink">Watchlist</a></li>
+    <li><a href="connect.html" class="navlink">Connect</a></li>
+    <li class="nav-tools"><button class="tool-btn" id="toggle-scanlines" title="Toggle scanlines">▤</button><button class="tool-btn" id="toggle-sound" title="Toggle sound">♪</button></li>
+  </ul>
+</nav>
+<main><div class="container">
+  <section class="hero" style="min-height:42vh;">
+    <div class="eyebrow">The Shelf</div>
+    <h1>Stories for <em>another day.</em></h1>
+    <div class="sub"><span>Your saved films, series and anime</span><b>·</b><span id="saved-media-count">0 saved titles</span></div>
+  </section>
+  <section class="bordered reveal">
+    <div class="section-label">Kept close</div>
+    <h2>My <em>watchlist.</em></h2>
+    <p>Saved in this browser, on this device. Add titles from the Movies and Anime archives whenever something catches your eye.</p>
+    <div class="media-results-grid" id="saved-media-grid"></div>
+    <div class="doors" style="margin-top:1.5rem;">
+      <a href="movies.html" class="door"><div class="num">01 — THE SCREEN</div><h3>Find a film</h3><p>Search movies and television with TMDB.</p><div class="arrow">EXPLORE →</div></a>
+      <a href="anime.html" class="door"><div class="num">02 — THE LONG NIGHT</div><h3>Find an anime</h3><p>Explore anime through AniList.</p><div class="arrow">EXPLORE →</div></a>
+    </div>
+  </section>
+</div></main>
+<footer><div>Sanjay · The Shelf</div><div class="end-mark">fin.</div><div><a href="index.html">Home ↑</a></div></footer>
+<script src="assets/effects.js"></script>
+<script src="assets/script.js"></script>
+<script src="assets/api-config.js"></script>
+<script src="assets/media-api.js"></script>
+</body>
+</html>
